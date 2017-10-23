@@ -18,7 +18,7 @@ WHERE trunc(data_faturamento) = trunc(sysdate -2) EXISTS
        AND A.CAMPANHA = B.CAMPANHA -1
        AND A.CUSTOMER_ID = B.CUSTOMER_ID)
     AND
-NOTHING
+NOTHING 1
 
 
 
